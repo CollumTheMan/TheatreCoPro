@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.BodyWrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+
+.CompanyName {
+    text-align: center;
+    height: 100%;
+    font-size: 40px;
+    padding: 5px 20px;
+}
+
+.NavBar {
+    display: flex;
+}
+
+.HeaderBar {
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+
+}
+
+.NavBarList {
+    display: flex;
+    list-style-type: none;
+}
+
+.NavBarListElement {
+    padding: 15px 30px;
+}
+
+.FeaturedShows {
+    text-align: center;
+    position: relative;
+}
+
+.FeaturedShows p {
+    position: absolute;
+    width: 100%;
+    font-size: 140px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.FeaturedShowsImg {
+    width: 100%;
+    height: auto;
+}
+
+.Shows {
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.Card {
+    min-height: 50px;
+    max-width: fit-content;
+    border-bottom: 1px solid black;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.CardImage {
+    height: 150px;
+    width: 150px;
+}
+
+.CardContent {
+    margin: 20px 30px;
+}
+
+.CardButton {
+    background-color: coral;
+    color: white;
+    padding: 10px;
+}
+
+.Date {
+    background-color: rgb(231, 226, 226);
+    border: 1px solid black;
+    width: 560px;
+}
+
+.Footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.Map {
+    width: 350px;
+    height: 250px;
+}
+
+.Pin {
+    height: 30px;
+    width: 30px;
+}
